@@ -5,7 +5,7 @@ import NativeLogin from "../views/NativeLogin.vue";
 import "@mdi/font/css/materialdesignicons.css";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory("/vuetify-bitwarden-demo"),
   routes: [
     {
       path: "/",
